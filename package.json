@@ -1,6 +1,6 @@
 {
   "name": "@auios/response-codes",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A reusable package for HTTP response code definitions",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
