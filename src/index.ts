@@ -71,6 +71,6 @@ const ResponseCode = {
   LoopDetected_508: 508, // The server detected an infinite loop while processing the request.
   NotExtended_510: 510, // Further extensions to the request are required for the server to fulfill it.
   NetworkAuthenticationRequired_511: 511, // The client needs to authenticate to gain network access.
-};
+} as const;
 
 export default ResponseCode;
